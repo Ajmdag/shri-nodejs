@@ -1,4 +1,7 @@
-# Startup
+## Для проверяющего ДЗ «Типизация»
+Версия с typescript в ветке `typescript`
+
+## Startup
 
 ```
 git clone https://github.com/Ajmdag/shri-nodejs.git
