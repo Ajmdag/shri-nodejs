@@ -1,7 +1,7 @@
 "use strict";
-const json = require("../events");
+const json = require("../../events");
 module.exports = (req, res) => {
-    let isQueryValid = json.events.some((item) => {
+    const isQueryValid = json.events.some((item) => {
         if (req.query.type === undefined) {
             return true;
         }

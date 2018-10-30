@@ -8,5 +8,5 @@ module.exports = {
     const timeNowHours = Math.round(timeNow / 1000 / 60 / 60);
     res.send(`${timeNowHours}:${timeNowMinutes}:${timeNowSeconds}`);
   },
-  time
+  time,
 };
